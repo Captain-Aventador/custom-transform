@@ -1,6 +1,6 @@
 with source_data as (
 
-   SELECT * FROM `transformed_events.Ccure_Accenture` where employeetype = 'Contractor'
+   SELECT * FROM `raw_events.Ccure_Accenture` where employeetype = 'Contractor'
 
 )
 
